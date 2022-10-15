@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap');
+
+@font-face {
+  font-family: 'Cyberpunk';
+  src: url('../public/asset/Cyberpunk-Regular.ttf');
+  }
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav h1 {
+  font-family: 'Cyberpunk', sans-serif;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #000;
+  border-radius: 20px;
+}
+
+.nav ul li a:hover, .nav ul li a.active {
+  color: #fff;
+  background-color: hsl(331, 87%, 61%);
+}
+
+
+
+
