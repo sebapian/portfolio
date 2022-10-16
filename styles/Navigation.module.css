@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Cyberpunk';
-  src: url('../public/asset/Cyberpunk-Regular.ttf');
+  src: url('/asset/Cyberpunk-Regular.ttf');
   }
 
 .nav {
