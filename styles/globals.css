@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  min-height: 200vh;
+  min-height: 160vh;
   background: linear-gradient(hsl(157, 100%, 54%), hsl(331, 87%, 61%))
 }
 
