@@ -14,14 +14,32 @@ export default function Home() {
       </Head>
       <Navigation />
 
-      <div className={styles.typewriter}>
-        <Typewriter
-          options={{
-            strings: ['Web Developer', 'Sebastian Pian'],
-            autoStart: true,
-            loop: true,
-            delay: 150,
-          }}
+      <div className={styles.container}>
+        <div>
+          <p>HELLO, I AM</p>
+        </div>
+        <div className={styles.typewriter}>
+          <Typewriter
+            options={{
+              strings: ['Web Developer', 'Sebastian Pian'],
+              autoStart: true,
+              loop: true,
+              delay: 150,
+            }}
+          />
+        </div>
+        <div>
+          <p>
+            A Full Stack Developer with passion for tech and<br></br> creating
+            valuable / feasable products.
+          </p>
+        </div>
+        <Image
+          src="/photos/portrait-photo.svg"
+          alt="portrait photo"
+          layout="fill"
+          width="500"
+          height="500"
         />
       </div>
     </div>

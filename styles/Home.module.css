@@ -1,6 +1,15 @@
-.typewriter {
+.container {
   margin-top: 40vh;
-  margin-left: 15vw;
+  margin-left: 7vw;
+}
+
+.container p {
+  background-color: hsl(331, 87%, 61%);
+  font-family: 'Roboto Mono', monospace;
+  display: inline-block
+}
+
+.typewriter {
   font-size: 2em;
   font-weight: 700;
 }
