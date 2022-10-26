@@ -40,6 +40,7 @@
   padding: 6px 15px;
   color: #000;
   border-radius: 20px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .nav ul li a:hover, .nav ul li a.active {

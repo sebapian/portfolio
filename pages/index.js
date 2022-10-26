@@ -34,13 +34,9 @@ export default function Home() {
             valuable / feasable products.
           </p>
         </div>
-        <Image
-          src="/photos/portrait-photo.svg"
-          alt="portrait photo"
-          layout="fill"
-          width="500"
-          height="500"
-        />
+        <div className={styles.imageContainer}>
+          <img src="/photos/portrait-photo.png" alt="profile-pic"></img>
+        </div>
       </div>
     </div>
   );
