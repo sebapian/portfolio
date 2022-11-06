@@ -1,8 +1,9 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import NextImage from 'next/image';
 import styles from '../styles/Home.module.css';
 import Navigation from '../components/Navigation';
 import Typewriter from 'typewriter-effect';
+import imgSrc from '../public/photos/portrait-photo.png';
 
 export default function Home() {
   return (
@@ -35,7 +36,18 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.imageContainer}>
-          <img src="/photos/portrait-photo.png" alt="profile-pic"></img>
+          <NextImage
+            src={imgSrc}
+            placeholder="blur"
+            style={{ width: '100%', height: 'auto' }}
+            alt="profile photo"
+          ></NextImage>
+
+          {/* <img
+            src="/photos/portrait-photo.png"
+            alt="profile-pic"
+            className={styles.image}
+          ></img> */}
         </div>
       </div>
     </div>

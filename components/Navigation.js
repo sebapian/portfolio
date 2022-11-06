@@ -1,4 +1,5 @@
 import styles from '../styles/Navigation.module.css';
+import Link from 'next/link';
 
 function Navigation() {
   return (
@@ -6,21 +7,21 @@ function Navigation() {
       <h1>Sebastian Pian</h1>
       <ul>
         <li>
-          <a href="#" className={styles.active}>
+          <Link href="#" className={styles.active}>
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">About</a>
+          <Link href="#">About</Link>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <Link href="#">Portfolio</Link>
         </li>
         <li>
-          <a href="#">Resume</a>
+          <Link href="#">Resume</Link>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <Link href="#">Contact</Link>
         </li>
       </ul>
     </div>

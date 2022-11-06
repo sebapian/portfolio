@@ -13,20 +13,29 @@
   font-size: 2em;
   font-weight: 700;
 }
+
 .imageContainer {
   width: 300px;
   height: auto;
-  border: 1px solid #ddd
-
+  position: absolute;
+  border: 5px solid hsl(331, 87%, 61%);
+  top: 25vh;
+  right: 20vw;
 }
 
 .imageContainer img {
+  vertical-align: middle;
+}
+
+
+/* .image {
   width: 300px;
   height: auto;
   border: 5px solid hsl(331, 87%, 61%);
-  
   position: absolute;
   top: 25vh;
   right: 20vw;
+}  */
 
-}
+
+
